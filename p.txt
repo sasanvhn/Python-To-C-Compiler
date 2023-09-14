@@ -1,0 +1,13 @@
+for i in range (1,100):  
+    if i%2==0:
+        print("this is even")
+    elif i%2!=0:
+        print("this is odd")     
+    else:
+        print("this is unknown")       
+index=1
+faktoril=5
+while index <= 5 :
+     faktoril=faktoril*index 
+     index=index+1
+print(faktoril)               
